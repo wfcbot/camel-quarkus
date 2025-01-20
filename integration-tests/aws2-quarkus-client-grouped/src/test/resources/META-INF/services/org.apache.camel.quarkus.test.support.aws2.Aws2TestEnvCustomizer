@@ -1,0 +1,6 @@
+org.apache.camel.quarkus.component.aws2.ddb.it.Aws2DdbQuarkusClientTestEnvCustomizer
+org.apache.camel.quarkus.component.aws2.s3.it.Aws2S3QuarkusClientTestEnvCustomizer
+
+org.apache.camel.quarkus.component.aws2.ses.it.Aws2SesQuarkusClientTestEnvCustomizer
+org.apache.camel.quarkus.component.aws2.sqs.it.Aws2SqsQuarkusClientTestEnvCustomizer
+org.apache.camel.quarkus.component.aws2.sns.it.Aws2SnsQuarkusClientTestEnvCustomizer
