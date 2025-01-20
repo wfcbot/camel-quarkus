@@ -71,7 +71,7 @@ jobs:
             unzip -o /home/runner/work/dependabot-pr.zip -d /home/runner/work/dependabot-pr
 
             PR_HEAD_SHA=$(cat /home/runner/work/dependabot-pr/PR_HEAD_SHA)
-            if [[ ! "${PR_HEAD_SHA}" =~ "^[0-9a-f]{40}$" ]]; then
+            if [[ ! "${PR_HEAD_SHA}" =~ ^[0-9a-f]{40}$ ]]; then
               exit 1
             fi
 
