@@ -103,7 +103,7 @@ jobs:
 
             git apply ${CHANGES_PATH}
             git commit -am"${COMMIT_MESSAGE}"
-            git push HEAD:${{ steps.setup-dependabot-patches.outputs.branch-ref }}
+            git push origin HEAD:${{ steps.setup-dependabot-patches.outputs.branch-ref }}
 
             echo "updated=true" >> $GITHUB_OUTPUT
           else
